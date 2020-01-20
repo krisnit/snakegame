@@ -1,0 +1,16 @@
+/* write your style definitions here or create css files and include them here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.snakegame__main {
+  display: flex;
+}
+#reset {
+}
+#snakegame__canvas {
+  border: 2px solid black;
+  padding: 0;
+}
+ 
