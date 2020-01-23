@@ -2,15 +2,40 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+}
+body {
+  /* background: #29303b; */
+  background: linear-gradient(
+    90deg,
+    rgba(38, 0, 113, 1) 0%,
+    rgba(3, 3, 24, 1) 50%,
+    rgba(38, 0, 113, 1) 100%
+  );
+}
+.snakegame {
+  margin: 1.5rem 3rem;
+  color: #fff;
 }
 .snakegame__main {
-  display: flex;
+  font-size: 1.6rem;
+  margin: 1rem;
 }
-#reset {
+.snakegame__header {
+  margin-bottom: 1rem;
 }
-#snakegame__canvas {
-  border: 2px solid black;
-  padding: 0;
+#snakegame__score {
+  margin-bottom: 1rem;
 }
- 
+
+.snakegame__svg {
+  width: 810px;
+  height: 810px;
+}
+svg {
+  /* position: absolute; */
+  background: #fff;
+}
+.highscore {
+  color: rgba(0, 255, 200, 0.657);
+}
